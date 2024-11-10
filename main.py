@@ -6,10 +6,10 @@ from influxdb_client.client.write_api import SYNCHRONOUS
 
 # InfluxDB connection parameters
 url = "http://localhost:8086"
-token = "0f48ad9a1c4a43af9643a3c77f6dc4b42df38ffe0d0368551629082a567e5587"
-org = "tai"
-bucket = "trick"
-measurement = "galacsim_lla"  # New measurement for LLA coordinates
+token = "abc"
+org = "ab"
+bucket = "ab"
+measurement = "ab_lla"  # New measurement for LLA coordinates
 
 # Connect to InfluxDB
 client = InfluxDBClient(url=url, token=token)
